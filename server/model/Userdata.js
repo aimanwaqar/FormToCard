@@ -9,7 +9,7 @@ const userCard = mongoose.Schema({
     rollNo: {
         type: String,
         required: true,
-        unique: true,
+        
     },
     batch: {
         type: String,
@@ -29,7 +29,7 @@ const userCard = mongoose.Schema({
     },
     createdDate:{
         type: Date,
-        required: true,  
+        
     }
 
 });
